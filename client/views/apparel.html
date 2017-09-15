@@ -1,0 +1,15 @@
+<div class="jumbotron">
+    <img src="/images/covalence-store-apparel-hero.jpg" alt="Covalence Apperal" class="product-hero">
+</div>
+<div class="container-fluid">
+     <div class="row line-line"> 
+        <div class="col-xs-12 col-md-4 col-sm-6" ng-repeat="apparel in apparels">
+            <div class="center-block products">
+                <a href="/{{ apparel.id }}"><img src="{{ apparel.imageURL }}" class="thumbnail product-thumbnail product img-responsive" alt="{{ apparel.title }}"></a>
+                <a href="/{{ apparel.id }}"><div class="grid-market">
+                    <h4 class="description">{{ apparel.title }}
+                <span class="currency">${{ apparel.price }}</span></h4></div></a>
+            </div>
+        </div>
+     </div> 
+</div>

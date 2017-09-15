@@ -1,0 +1,156 @@
+/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #fff;
+		margin:0;
+	}
+	.intro p{
+		color: #fff;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #fff;
+	}
+* {
+	color: black;
+}
+
+/* ----------------- TYPE ----------------- */
+.serif {
+	font-family: 'Playfair Display', serif;
+}
+.sans-serif {
+	font-family: 'Raleway', sans-serif;
+}
+.crimson {
+	font-family: 'Crimson Text', serif;
+}
+.tonos {
+	font-family: 'Tonos', serif;
+}
+._1 {
+	font-size: 1em;
+}
+._2 {
+	font-size: 2em;
+}
+._275 {
+	font-size: 2.75em;
+}
+._5 {
+	font-size: 5em;
+}
+._7 {
+	font-size: 7em;
+}
+._875 {
+	font-size: 8.75em;
+}
+
+/* ----------------- BACKGROUND-COLOR ----------------- */
+.white {
+	background-color: white;
+}
+.black {
+	background-color: black;
+}
+.blue {
+	background-color: #006EDE;
+}
+.red {
+	background-color: rgba(249, 47, 75, 0.75);
+}
+/* ----------------- FONT COLOR ----------------- */
+.type-black {
+	color: black;
+}
+.type-white {
+	color: white;
+}
+/* ----------------- LAYOUT ----------------- */
+.width {
+	width: 100%;
+}
+
+.margin-vt-sm {
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+.margin-vt-md {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.margin-vt-lg {
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+.margin-ct {
+	margin: 0 auto;
+}
+.padding-sm {
+	padding: 1%;
+}
+.padding-md {
+	padding: 5%;
+}
+.top {
+	top: 0;
+	right: 0;
+}
+.fp-controlArrow.fp-prev {
+	left: 15px;
+    width: 0;
+    border-width: 38.5px 34px 38.5px 0;
+    border-color: transparent rgba(0, 0, 0, 0.25) transparent transparent;
+}
+.fp-controlArrow.fp-next {
+	right: 15px;
+    width: 0;
+    border-width: 38.5px 0 38.5px 34px;
+    border-color: transparent transparent transparent rgba(0, 0, 0, 0.25);
+}
+ol, ul {
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+}
+/* ----------------- BUTTON ----------------- */
+.btn-basic {
+	border-radius: 50px 50px 50px 50px;
+	border: 2px solid #F92F4B;
+	background-color: white;
+}
+.btn-basic:hover {
+	border-radius: 50px 50px 50px 50px;
+	border: 2px solid #F92F4B;
+	background-color: #F92F4B
+}
+/* ----------------- IMAGE ----------------- */
+.img-fit {
+	height: auto;
+	width: 25%;
+}
+
+.soc {
+	display: block;
+	font-size: 0;
+	list-style: none;
+	margin: 0;
+	/* padding: 48px; */
+	/* padding: 4.8rem; */
+	text-align: center;
+	}
+	.soc svg {
+		height: 3rem;
+		width: 3rem;
+	}

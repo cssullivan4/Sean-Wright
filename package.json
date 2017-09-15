@@ -1,0 +1,23 @@
+{
+  "name": "sean-wright",
+  "version": "1.0.0",
+  "description": "Promotional web app",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cssullivan4/Sean-Wright.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cssullivan4/Sean-Wright/issues"
+  },
+  "homepage": "https://github.com/cssullivan4/Sean-Wright#readme",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4"
+  }
+}
