@@ -1,6 +1,6 @@
 /* Style for our header texts
 	* --------------------------------------- */
-	h1{
+	/* h1{
 		font-size: 5em;
 		font-family: arial,helvetica;
 		color: #fff;
@@ -8,22 +8,22 @@
 	}
 	.intro p{
 		color: #fff;
-	}
+	} */
 
 	/* Centered texts in each section
 	* --------------------------------------- */
-	.section{
+	/* .section{
 		text-align:center;
-	}
+	} */
 
 	/* Bottom menu
 	* --------------------------------------- */
-	#infoMenu li a {
+	/* #infoMenu li a {
 		color: #fff;
-	}
-* {
+	} */
+/* * {
 	color: black;
-}
+} */
 
 /* ----------------- TYPE ----------------- */
 .serif {
@@ -41,11 +41,26 @@
 ._1 {
 	font-size: 1em;
 }
+._125 {
+	font-size: 1.25em;
+}
+._15 {
+	font-size: 1.5em;
+}
 ._2 {
 	font-size: 2em;
 }
+._225 {
+	font-size: 2.25em;
+}
 ._275 {
 	font-size: 2.75em;
+}
+._3 {
+	font-size: 3em;
+}
+._35 {
+	font-size: 3.5em;
 }
 ._5 {
 	font-size: 5em;
@@ -56,7 +71,16 @@
 ._875 {
 	font-size: 8.75em;
 }
-
+.anchor:hover {
+	text-decoration-style: dotted;
+	color: white;
+}
+/* .anchor:hover, .anchor:focus, .anchor:active, .anchor:link, .anchor:visited {
+	border: none;
+	text-decoration: none;
+	color: black;
+}
+.anchor-2:hover, .anchor-2:focus, .anchor-2:active, .anchor-2:link, .anchor-2:visited */
 /* ----------------- BACKGROUND-COLOR ----------------- */
 .white {
 	background-color: white;
@@ -65,10 +89,13 @@
 	background-color: black;
 }
 .blue {
-	background-color: #006EDE;
+	background-color: rgba(0, 110, 222, 0.95);
 }
 .red {
 	background-color: rgba(249, 47, 75, 0.75);
+}
+.yellow {
+	background-color: rgba(244, 255, 89, 0.95);
 }
 /* ----------------- FONT COLOR ----------------- */
 .type-black {
@@ -81,14 +108,19 @@
 .width {
 	width: 100%;
 }
-
 .margin-vt-sm {
 	margin-top: 1%;
 	margin-bottom: 1%;
 }
+.margin-vt-sm-top {
+	margin-top: 1%;
+}
 .margin-vt-md {
 	margin-top: 5%;
 	margin-bottom: 5%;
+}
+.margin-vt-md-top {
+	margin-top: 5%;
 }
 .margin-vt-lg {
 	margin-top: 10%;
@@ -99,6 +131,9 @@
 }
 .padding-sm {
 	padding: 1%;
+}
+.padding-sd {
+	padding: 2.5%;
 }
 .padding-md {
 	padding: 5%;
@@ -124,6 +159,12 @@ ol, ul {
     margin: 0;
     padding: 0;
 }
+footer {
+	width: 100vw;
+	position: absolute;
+	bottom: 0px;
+	background-color: rgba(0, 0, 0, .975);
+}
 /* ----------------- BUTTON ----------------- */
 .btn-basic {
 	border-radius: 50px 50px 50px 50px;
@@ -140,7 +181,10 @@ ol, ul {
 	height: auto;
 	width: 25%;
 }
-
+.img-fit-h {
+	width: auto;
+	height: 25%
+}
 .soc {
 	display: block;
 	font-size: 0;
@@ -149,8 +193,24 @@ ol, ul {
 	/* padding: 48px; */
 	/* padding: 4.8rem; */
 	text-align: center;
-	}
-	.soc svg {
-		height: 3rem;
-		width: 3rem;
-	}
+}
+.soc svg {
+	height: 3rem;
+	width: 3rem;
+}
+.soc img {
+	height: 3rem;
+	width: 3rem;
+}
+#ark {
+	height: 250px;
+	width: auto;
+}
+#slide1 {
+	background: url('parthenon.svg') right bottom no-repeat;
+	background-size: 600px;
+}
+#TN {
+	background: url('tn-flag.svg') no-repeat;
+	background-size: 500px;
+}
