@@ -43,6 +43,39 @@
 		font-size: 3.25em;
 	}
 } */
+._1 {
+	font-size: 1em;
+}
+._125 {
+	font-size: 1.25em;
+}
+._15 {
+	font-size: 1.5em;
+}
+p > ._2 {
+	font-size: 3.5em;
+}
+._225 {
+	font-size: 2.25em;
+}
+._275 {
+	font-size: 2.75em;
+}
+._3 {
+	font-size: 3em;
+}
+._35 {
+	font-size: 3.5em;
+}
+._5 {
+	font-size: 5em;
+}
+._7 {
+	font-size: 7em;
+}
+._875 {
+	font-size: 8.75em;
+}
 @media (max-width: 700px) {
 	._1 {
 		font-size: 1em;
@@ -96,7 +129,7 @@
 	background-color: black;
 }
 .blue {
-	background-color: rgba(0, 110, 222, 0.95);
+	background-color: rgba(0, 110, 222, 0.3);
 }
 .red {
 	background-color: rgba(249, 47, 75, 0.75);
@@ -110,6 +143,9 @@
 }
 .type-white {
 	color: white;
+}
+.type-blue {
+	color: rgb(0, 110, 222);
 }
 /* ----------------- LAYOUT ----------------- */
 .width {
